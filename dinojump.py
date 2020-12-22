@@ -71,6 +71,7 @@ def tick(keys):
     if pygame.K_SPACE in keys:
         if game_on == False:
             score = 0
+            base = 0
         game_on = True
 
     if game_on:
