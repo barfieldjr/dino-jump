@@ -154,7 +154,7 @@ def tick(keys):
         if timer > 0:
             camera.draw("Your last score was " + str(score) + ".", 50, "black", [400, 500])
         camera.draw("DINO JUMP!", 100, "black", [400, 70])
-        camera.draw("Press enter to play", 30, "red", [400, 550])
+        camera.draw("Press space to play", 30, "red", [400, 550])
         camera.display()
     if game_over:
 
